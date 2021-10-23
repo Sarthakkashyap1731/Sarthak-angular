@@ -1,0 +1,11 @@
+.about {
+  width: 80%;
+  /* margin-left: -15em; */
+}
+.picture {
+  width: 20%;
+}
+.maincolor {
+  background-color: #00203fff;
+  color: white;
+}
