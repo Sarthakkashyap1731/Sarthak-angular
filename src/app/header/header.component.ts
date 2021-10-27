@@ -10,6 +10,9 @@ export class HeaderComponent implements OnInit {
   DOB = '07-31-1999';
   number = '9826992097';
   email = 'kashyapsarthak177@gmail.com';
+  designation = 'SD';
+
+  show = true;
 
   constructor() {}
 

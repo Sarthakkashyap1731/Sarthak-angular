@@ -8,3 +8,26 @@
   background-color: #00203fff;
   color: white;
 }
+.designation {
+  font-size: 15px;
+}
+.input-box {
+  background-color: #00203fff;
+  color: white;
+}
+.input-box:hover {
+  background-color: white;
+  color: #00203fff;
+  box-decoration-break: clone;
+  text-decoration: none;
+}
+.show-details {
+  background-color: white;
+  color: #00203fff;
+}
+.show-details:hover {
+  background-color: #00203fff;
+  color: white;
+  box-decoration-break: clone;
+  text-decoration: none;
+}
