@@ -24,6 +24,7 @@
 .show-details {
   background-color: white;
   color: #00203fff;
+  border-radius: 100px;
 }
 .show-details:hover {
   background-color: #00203fff;

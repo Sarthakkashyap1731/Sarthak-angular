@@ -11,6 +11,8 @@ export class HeaderComponent implements OnInit {
   number = '9826992097';
   email = 'kashyapsarthak177@gmail.com';
   designation = 'SD';
+  location = 'Indore,India';
+  allLocation = ['India', 'USA', 'Japna', 'China', 'England'];
 
   show = true;
 

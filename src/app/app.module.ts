@@ -7,6 +7,7 @@ import { HelloComponent } from './hello.component';
 import { ResumeComponent } from './resume/resume.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectComponent } from './project/project.component';
+import { NumberPipe } from './header/number.pipe';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -16,6 +17,7 @@ import { ProjectComponent } from './project/project.component';
     ResumeComponent,
     HeaderComponent,
     ProjectComponent,
+    NumberPipe,
   ],
   bootstrap: [AppComponent],
 })

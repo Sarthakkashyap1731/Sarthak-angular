@@ -10,7 +10,7 @@
         </div>
         <div class="col-lg-6 col-sm-4 col-md-4 about">
           <h1 class="display-4" style="text-decoration:underline;">
-            {{ name | uppercase }} -
+            {{ name | uppercase }}
             <p class="designation">
               ( <span> {{ designation }}</span
               >)
@@ -39,13 +39,14 @@
       <hr class="my-4" />
       <p>Contact Details:</p>
       <button class="show-details" (click)="show = !show">
-        Show Contact Details
+        {{ show ? 'Hide' : 'Show' }}
+        Contact Details
       </button>
       <br /><br />
       <div *ngIf="show">
-        <p>Number : {{ number }}</p>
+        <p>Number : {{ number | numberPipe: location }}</p>
         <p>Email : {{ email }}</p>
-        <p>Location : Indore,India</p>
+        <p>Location : {{ location }}</p>
         <p>DOB : {{ DOB | date }}</p>
         <p>LinkdeIn : https://www.linkedin.com/in/sarthak-kashyap-4b536a193</p>
       </div>
