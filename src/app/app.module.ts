@@ -8,6 +8,7 @@ import { ResumeComponent } from './resume/resume.component';
 import { HeaderComponent } from './header/header.component';
 import { ProjectComponent } from './project/project.component';
 import { NumberPipe } from './header/number.pipe';
+import { EducationComponent } from './education/education.component';
 
 @NgModule({
   imports: [BrowserModule, FormsModule],
@@ -18,6 +19,7 @@ import { NumberPipe } from './header/number.pipe';
     HeaderComponent,
     ProjectComponent,
     NumberPipe,
+    EducationComponent
   ],
   bootstrap: [AppComponent],
 })
