@@ -13,8 +13,8 @@ export class NumberPipe implements PipeTransform {
     if (allLocation.includes('USA') == true) {
       return '+12' + number;
     }
-    if (allLocation.includes('Japna') == true) {
-      return '+23';
+    if (number.includes('Japna') == true) {
+      return '+23' + allLocation;
     }
     if (allLocation.includes('China') == true) {
       return '+45';
