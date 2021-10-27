@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
   name = 'Sarthak Kashyap';
   DOB = '07-31-1999';
-  number = '9826992097';
+  number = '-9826992097';
   email = 'kashyapsarthak177@gmail.com';
   designation = 'SD';
   location = 'Indore,India';
