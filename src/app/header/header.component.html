@@ -10,7 +10,7 @@
         </div>
         <div class="col-lg-6 col-sm-2 col-md-2 about">
           <h1 class="display-4" style="text-decoration:underline;">
-            Sarthak Kashyap
+            {{ name | uppercase }}
           </h1>
           <p>
             Interested in the role of a Software Engineer where I can contribute
@@ -23,9 +23,10 @@
       <div class="contactDetails"></div>
       <hr class="my-4" />
       <p>Contact Details:</p>
-      <p>Number : 9826992097</p>
-      <p>Email : kashyapsarthak177@gmail.com</p>
+      <p>Number : {{ number }}</p>
+      <p>Email : {{ email }}</p>
       <p>Location : Indore,India</p>
+      <p>DOB : {{ DOB | date }}</p>
       <p>LinkdeIn : https://www.linkedin.com/in/sarthak-kashyap-4b536a193</p>
       <hr class="my-4" />
     </div>
